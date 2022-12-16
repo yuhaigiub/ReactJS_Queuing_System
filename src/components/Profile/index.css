@@ -1,0 +1,12 @@
+#profile-text-wrapper label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+#profile-text-wrapper input {
+	border-radius: 5px;
+	height: 35%;
+	width: 80%;
+	border: 0.8px solid rgb(132, 129, 129, 0.3);
+}

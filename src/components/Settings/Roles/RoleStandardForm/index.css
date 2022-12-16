@@ -1,0 +1,71 @@
+#role-form-wrapper {
+	padding: 2em;
+	height: 100%;
+	width: 100%;
+}
+
+#role-form-wrapper-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+#role-form-wrapper-without-button-3 {
+	border-radius: 12px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2em;
+	padding: 2em;
+	box-shadow: 2px 2px 8px rgba(70, 64, 67, 0.1);
+}
+
+#role-form-wrapper-with-button-3 {
+	display: flex;
+	column-gap: 2em;
+	padding: 2em;
+}
+
+#role-left-side {
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	row-gap: 2em;
+}
+
+#role-right-side {
+	height: 100%;
+	display: grid;
+	grid-template-rows: 6% 95%;
+}
+
+#role-description-wrapper .ant-form-item {
+	margin: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+#role-description-wrapper .ant-row {
+	width: 100% !important;
+	height: 100% !important;
+	display: grid !important;
+	grid-template-rows: 15% 85% !important;
+	row-gap: 8px;
+}
+
+#role-description-wrapper .ant-form-item-control {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+#role-description-wrapper .ant-form-item-control .ant-form-item-control-input,
+#role-description-wrapper .ant-form-item-control-input-content,
+#role-description-wrapper .ant-form-item-control-input-content textarea {
+	width: 100% !important;
+	height: 100% !important;
+}

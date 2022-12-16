@@ -1,0 +1,75 @@
+.login-form {
+	width: 100%;
+}
+
+.login-form .input-box {
+	border-radius: 8px;
+}
+
+.login-button-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+.forget-password-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+
+.forget-password-wrapper > :first-child {
+	display: inline-block;
+	cursor: pointer;
+	margin: auto;
+}
+
+.forget-password-wrapper > :first-child:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.forget-password-buttons-wrapper {
+	margin-top: 8%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.set-new-password-confirm-button-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+#email-text {
+	display: block;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+#login-image-1 {
+	width: 600px;
+	height: 600px;
+	object-fit: contain;
+}
+
+#login-image-1-text {
+	color: #ff7506;
+	font-size: 2.7em;
+	position: absolute;
+	top: 49%;
+	left: 58%;
+}
+
+#login-image-1-text > h1 {
+	padding: 0;
+	margin: 0;
+}
+
+#login-image-2 {
+	width: 700px;
+	height: 500px;
+	object-fit: contain;
+}

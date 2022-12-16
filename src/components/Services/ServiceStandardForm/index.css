@@ -1,0 +1,85 @@
+#service-outer-wrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#service-form {
+	width: 90%;
+	background-color: white;
+	padding: 2em 2em;
+	border-radius: 9px;
+	box-shadow: 2px 2px 15px rgba(232, 239, 244, 0.8);
+}
+
+#service-text-fields-wrapper {
+	width: 100%;
+	height: 50%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 2em;
+}
+
+#service-text-fields-wrapper:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#service-text-fields-wrapper:nth-child(2) label {
+	display: block;
+}
+
+#service-button-wrapper {
+	display: flex;
+	justify-content: center;
+	column-gap: 2em;
+}
+
+#service-checkbox-wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 0.5em;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.flex-item-center {
+	display: flex;
+	align-items: center;
+}
+
+.flex-col-gap {
+	column-gap: 0.5em;
+}
+
+.service-checkbox-width {
+	width: 12%;
+}
+
+.service-checkbox-input {
+	width: 60px;
+	border-radius: 4px;
+}
+
+#service-text-fields-wrapper input,
+#service-text-fields-wrapper textarea {
+	border-radius: 9px !important;
+}
+
+.service-description-box,
+.service-description-box .ant-row,
+.service-description-box .ant-col,
+.service-description-box .ant-form-item-control-input,
+.service-description-box .ant-form-item-control-input-content {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.service-description-box textarea {
+	height: calc(100% - 30px);
+}

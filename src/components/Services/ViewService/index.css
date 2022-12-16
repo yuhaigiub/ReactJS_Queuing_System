@@ -1,0 +1,13 @@
+#special-back-float-button svg path:nth-child(2) {
+	fill: #fff2e7 !important;
+	stroke: #fff2e7 !important;
+}
+
+.number-textdiv-width {
+	width: 120px;
+}
+
+.number-wrapper input {
+	border-radius: 5px;
+	text-align: center;
+}

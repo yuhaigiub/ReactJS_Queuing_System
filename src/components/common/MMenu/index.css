@@ -1,0 +1,32 @@
+.ant-menu-item,
+.ant-menu-submenu {
+	font-size: 1em;
+	font-weight: 400;
+	stroke: #7e7d88;
+	color: #7e7d88;
+	/* stroke: rgb(0, 0, 0, 0.7) !important;
+	color: rgb(0, 0, 0, 0.7) !important; */
+}
+
+.ant-menu-item-selected span {
+	font-weight: 700;
+	stroke: white !important;
+	color: white !important;
+}
+
+.ant-menu-submenu-selected span {
+	stroke: #ff7506 !important;
+	color: #ff7506 !important;
+}
+
+.ant-menu-item svg path,
+.ant-menu-submenu svg path {
+	stroke: inherit !important;
+}
+
+.ant-menu-item:hover,
+.ant-menu-submenu:hover {
+	background-color: #fff2e7;
+	stroke: #ff7506 !important;
+	color: #ff7506 !important;
+}

@@ -1,0 +1,177 @@
+body {
+	font-family: "Nunito", sans-serif;
+	box-sizing: border-box;
+}
+
+/* tabel */
+
+.ant-table-thead .ant-table-cell {
+	background-color: #ff9138 !important;
+	color: white !important;
+	font-weight: 700;
+	padding: 1em !important;
+}
+
+.ant-table-tbody tr div,
+.ant-table-tbody tr span {
+	padding: 0.1em !important;
+}
+
+.ant-table-tbody tr:nth-child(2n) {
+	background-color: #fff2e7;
+}
+
+/* pagination */
+
+.ant-pagination-item-link,
+.ant-pagination-item {
+	background-color: inherit !important;
+	border: none !important;
+}
+
+.ant-pagination-item-active {
+	background-color: #ff9138 !important;
+	border-radius: 4px;
+}
+.ant-pagination-item-active a {
+	color: white !important;
+	font-weight: 700 !important;
+}
+
+/* calendar */
+
+.ant-picker-calendar {
+	display: block !important;
+	width: 100%;
+	height: 100%;
+	border-radius: 10px !important;
+	font-size: 1em !important;
+	padding: 0.5em 3.5em 0.5em 3.5em;
+}
+
+.calendar-heading {
+	display: flex !important;
+	width: 100% !important;
+	height: 23% !important;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #ff9138;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.ant-picker-panel {
+	display: block !important;
+	width: 100% !important;
+	height: 77% !important;
+}
+
+.ant-picker-date-panel,
+.ant-picker-body,
+.ant-picker-body table {
+	display: block;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.ant-picker-content thead {
+	display: block;
+	width: 100% !important;
+	height: 16.666666666666668% !important;
+}
+
+.ant-picker-content tbody {
+	display: block;
+	width: 100% !important;
+	height: 83.33333333333334% !important;
+}
+
+.ant-picker-content thead tr {
+	width: 100% !important;
+	height: 100% !important;
+	display: flex !important;
+	justify-content: space-between !important;
+}
+
+.ant-picker-content tbody tr {
+	width: 100% !important;
+	height: 20% !important;
+	display: flex !important;
+	justify-content: space-between !important;
+}
+
+/* calendar element */
+.ant-picker-content tbody tr td {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 !important;
+	width: 1.5vw !important;
+	height: 1.5vw !important;
+}
+
+.ant-picker-content tbody tr td .ant-picker-calendar-date {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100% !important;
+	width: 100% !important;
+}
+
+.ant-picker-content thead tr th {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 !important;
+	width: 1.5vw !important;
+	height: 1.5vw !important;
+	color: #ff9138;
+	font-weight: 700;
+}
+
+.calendar-heading .arrow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1.5vw !important;
+	height: 1.5vw !important;
+	cursor: pointer;
+}
+
+.ant-picker-content tr:nth-child(6) {
+	display: none !important;
+}
+
+/* fonts */
+/* .ant-form-item-label label {
+	font-size: 1.2em !important;
+} */
+
+.view-card-1 {
+	border-radius: 9px;
+	box-shadow: 2px 2px 8px rgba(70, 64, 67, 0.1);
+	height: 80%;
+	margin: 2em;
+	padding: 2em;
+	background-color: white;
+	font-size: 1.1em;
+}
+
+/* input border */
+.ant-select-selector {
+	border-radius: 9px !important;
+}
+
+.ant-input-password {
+	border-radius: 9px !important;
+}
+
+/* custom */
+.keyword-input-field {
+	width: 12em !important;
+	height: 32px !important;
+	border-radius: 5px !important;
+	border: 0.8px solid rgba(200, 200, 200, 0.85) !important;
+	padding: 10px;
+}
